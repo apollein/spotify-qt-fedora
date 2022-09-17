@@ -7,8 +7,8 @@ URL:	https://github.com/kraxarn/spotify-qt/
 Source0:	https://github.com/kraxarn/spotify-qt/archive/v%{version}.tar.gz
 
 BuildArch:	x86_64
-BuildRequires:	qt5-qtbase
-BuildRequires:	qt5-qtsvg
+Requires:	qt5-qtbase
+Requires:	qt5-qtsvg
 BuildRequires:	qt5-qtbase-devel
 BuildRequires:	qt5-qtsvg-devel
 Requires:	hicolor-icon-theme
